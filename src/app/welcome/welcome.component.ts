@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css']
 })
-export class WelcomeComponent {
+export class WelcomeComponent implements OnInit {
 
   constructor() { }
   //Component lifecycle hooks - method called automatically at certain points in an objects creation
