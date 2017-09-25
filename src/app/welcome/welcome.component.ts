@@ -7,9 +7,4 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
-  constructor() { }
-  //Component lifecycle hooks - method called automatically at certain points in an objects creation
-  ngOnInit() {
-  }
-
 }
